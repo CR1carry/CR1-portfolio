@@ -1030,7 +1030,7 @@ button {
 .strengths {
   background:
     linear-gradient(rgba(20, 17, 14, 0.42), rgba(20, 17, 14, 0.38)),
-    url("/strengths.jpg") center / cover no-repeat;
+    url("./strengths.jpg") center / cover no-repeat;
   border-top: 1px solid var(--line);
 }
 
@@ -1099,7 +1099,7 @@ button {
   padding-block: 110px 80px;
   background:
     linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)),
-    url("/toolkit.jpg") center / cover no-repeat;
+    url("./toolkit.jpg") center / cover no-repeat;
 }
 
 .toolkit-inner {
@@ -1175,7 +1175,7 @@ button {
   padding-block: 110px;
   background:
     linear-gradient(rgba(20, 17, 14, 0.66), rgba(20, 17, 14, 0.6)),
-    url("/contact.jpg") center / cover no-repeat;
+    url("./contact.jpg") center / cover no-repeat;
 }
 
 .contact-grid {
