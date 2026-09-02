@@ -61,9 +61,9 @@ export const interests = [
   {
     title: "喜欢的歌手",
     items: [
-      { text: "霉霉（Taylor Swift）", image: "/taylor.jpg" },
-      { text: "匠妹（Sabrina Carpenter）", image: "/sabrina.jpg" },
-      { text: "A妹（Ariana Grande）", image: "/ariana.jpg" },
+      { text: "霉霉（Taylor Swift）", image: "./taylor.jpg" },
+      { text: "匠妹（Sabrina Carpenter）", image: "./sabrina.jpg" },
+      { text: "A妹（Ariana Grande）", image: "./ariana.jpg" },
     ],
   },
 ];
