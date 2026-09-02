@@ -120,7 +120,7 @@ function App() {
       <main>
         <section className="hero" id="top">
           <div className="hero-media" aria-hidden="true">
-            <img src="/hero-user.jpg" alt="" />
+            <img src="./hero-user.jpg" alt="" />
             <div className="hero-media-shade" />
           </div>
 
@@ -164,7 +164,7 @@ function App() {
 
         <section className="hometown" id="hometown">
           <div className="hometown-media" aria-hidden="true">
-            <img src="/hometown.jpg" alt="" />
+            <img src="./hometown.jpg" alt="" />
             <div className="hometown-shade" />
           </div>
           <div className="container hometown-content">
@@ -188,7 +188,7 @@ function App() {
 
         <section className="highschool" id="highschool">
           <div className="highschool-media" aria-hidden="true">
-            <img src="/highschool.jpg" alt="" />
+            <img src="./highschool.jpg" alt="" />
             <div className="highschool-shade" />
           </div>
           <div className="container highschool-content">
@@ -207,7 +207,7 @@ function App() {
 
         <section className="section about" id="about">
           <div className="about-media" aria-hidden="true">
-            <img src="/about.jpg" alt="" />
+            <img src="./about.jpg" alt="" />
             <div className="about-shade" />
           </div>
           <div className="container about-grid">
@@ -252,7 +252,7 @@ function App() {
 
         <section className="interests" id="interests">
           <div className="interests-media" aria-hidden="true">
-            <img src="/interests.jpg" alt="" />
+            <img src="./interests.jpg" alt="" />
             <div className="interests-shade" />
           </div>
           <div className="container interests-inner">
