@@ -488,6 +488,10 @@ button {
   white-space: nowrap;
 }
 
+.hometown-nowrap {
+  white-space: nowrap;
+}
+
 .highschool {
   position: relative;
   display: flex;
