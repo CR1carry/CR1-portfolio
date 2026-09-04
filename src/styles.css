@@ -1170,6 +1170,28 @@ button {
   line-height: 1.4;
 }
 
+.toolkit-media-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  white-space: nowrap;
+}
+
+.toolkit-media-item span {
+  font-size: 20px;
+}
+
+.toolkit-media-item img {
+  width: 110px;
+  height: 90px;
+  flex-shrink: 0;
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  border-radius: 6px;
+  object-fit: contain;
+  background: rgba(255, 255, 255, 0.7);
+}
+
 .contact {
   position: relative;
   display: flex;
