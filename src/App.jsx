@@ -182,7 +182,8 @@ function App() {
                 <br />
                 <span className="hometown-film">《给阿嬷的情书》的取景地</span>，
                 <br />
-                也是潮汕美食之都，英歌舞之乡，滨海网红城市，
+                也是潮汕美食之都，英歌舞之乡，
+                <span className="hometown-nowrap">滨海网红城市</span>，
                 <br />
                 欢迎大家来汕头玩。
               </h2>
