@@ -120,7 +120,12 @@ function App() {
       <main>
         <section className="hero" id="top">
           <div className="hero-media" aria-hidden="true">
-            <img src="./hero-user.jpg" alt="" />
+            <img
+              src="./hero-user.jpg"
+              alt=""
+              loading="eager"
+              fetchpriority="high"
+            />
             <div className="hero-media-shade" />
           </div>
 
@@ -164,7 +169,7 @@ function App() {
 
         <section className="hometown" id="hometown">
           <div className="hometown-media" aria-hidden="true">
-            <img src="./hometown.jpg" alt="" />
+            <img src="./hometown.jpg" alt="" loading="eager" />
             <div className="hometown-shade" />
           </div>
           <div className="container hometown-content">
@@ -177,7 +182,9 @@ function App() {
                 <br />
                 <span className="hometown-film">《给阿嬷的情书》的取景地</span>，
                 <br />
-                是一个有很多美食的地方。
+                也是潮汕美食之都，英歌舞之乡，滨海网红城市，
+                <br />
+                欢迎大家来汕头玩。
               </h2>
             </Reveal>
           </div>
@@ -188,7 +195,7 @@ function App() {
 
         <section className="highschool" id="highschool">
           <div className="highschool-media" aria-hidden="true">
-            <img src="./highschool.jpg" alt="" />
+            <img src="./highschool.jpg" alt="" loading="eager" />
             <div className="highschool-shade" />
           </div>
           <div className="container highschool-content">
@@ -207,7 +214,7 @@ function App() {
 
         <section className="section about" id="about">
           <div className="about-media" aria-hidden="true">
-            <img src="./about.jpg" alt="" />
+            <img src="./about.jpg" alt="" loading="eager" />
             <div className="about-shade" />
           </div>
           <div className="container about-grid">
@@ -252,7 +259,7 @@ function App() {
 
         <section className="interests" id="interests">
           <div className="interests-media" aria-hidden="true">
-            <img src="./interests.jpg" alt="" />
+            <img src="./interests.jpg" alt="" loading="eager" />
             <div className="interests-shade" />
           </div>
           <div className="container interests-inner">
@@ -280,7 +287,7 @@ function App() {
                         >
                           <span>{item.text}</span>
                           {item.image ? (
-                            <img src={item.image} alt="" />
+                            <img src={item.image} alt="" loading="eager" />
                           ) : null}
                         </div>
                       ),
