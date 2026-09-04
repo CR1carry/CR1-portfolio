@@ -73,15 +73,23 @@ export const toolkit = {
   groups: [
     {
       title: "使用办公工具",
-      items: ["PPT", "Excel", "PDF"],
+      items: [
+        { text: "PPT", image: "./tool-ppt.png" },
+        { text: "Excel", image: "./tool-excel.png" },
+        { text: "PDF", image: "./tool-pdf.png" },
+      ],
     },
     {
       title: "AI Agent",
-      items: ["codex", "workbuddy", "dsh 等"],
+      items: [
+        { text: "codex", image: "./tool-codex.jpg" },
+        { text: "workbuddy", image: "./tool-workbuddy.jpg" },
+        { text: "dsh 等", image: "./tool-dsh.jpg" },
+      ],
     },
     {
       title: "剪辑",
-      items: ["基础剪辑"],
+      items: [{ text: "基础剪辑", image: "./tool-jianying.jpg" }],
     },
   ],
 };
