@@ -352,9 +352,16 @@ function App() {
                 >
                   <h3>{group.title}</h3>
                   <div className="toolkit-items">
-                    {group.items.map((item) => (
-                      <span key={item}>{item}</span>
-                    ))}
+                    {group.items.map((item) =>
+                      typeof item === "string" ? (
+                        <span key={item}>{item}</span>
+                      ) : (
+                        <div className="toolkit-media-item" key={item.text}>
+                          <span>{item.text}</span>
+                          <img src={item.image} alt="" loading="eager" />
+                        </div>
+                      ),
+                    )}
                   </div>
                 </Reveal>
               ))}
